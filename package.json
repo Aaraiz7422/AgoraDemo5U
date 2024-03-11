@@ -10,8 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "agora-react-native-rtm": "^1.5.1",
+    "agora-rn-uikit": "^5.0.2",
     "react": "18.2.0",
-    "react-native": "0.73.5"
+    "react-native": "0.73.5",
+    "react-native-agora": "^4.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

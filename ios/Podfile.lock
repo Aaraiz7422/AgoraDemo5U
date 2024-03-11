@@ -1,4 +1,40 @@
 PODS:
+  - agora-react-native-rtm (1.5.1):
+    - AgoraRtm_iOS (= 1.5.1)
+    - React-Core
+  - AgoraIrisRTC_iOS (4.3.0-build.2)
+  - AgoraRtcEngine_iOS (4.3.0):
+    - AgoraRtcEngine_iOS/AIAEC (= 4.3.0)
+    - AgoraRtcEngine_iOS/AINS (= 4.3.0)
+    - AgoraRtcEngine_iOS/AudioBeauty (= 4.3.0)
+    - AgoraRtcEngine_iOS/ClearVision (= 4.3.0)
+    - AgoraRtcEngine_iOS/ContentInspect (= 4.3.0)
+    - AgoraRtcEngine_iOS/FaceCapture (= 4.3.0)
+    - AgoraRtcEngine_iOS/FaceDetection (= 4.3.0)
+    - AgoraRtcEngine_iOS/ReplayKit (= 4.3.0)
+    - AgoraRtcEngine_iOS/RtcBasic (= 4.3.0)
+    - AgoraRtcEngine_iOS/SpatialAudio (= 4.3.0)
+    - AgoraRtcEngine_iOS/VideoAv1CodecDec (= 4.3.0)
+    - AgoraRtcEngine_iOS/VideoCodecDec (= 4.3.0)
+    - AgoraRtcEngine_iOS/VideoCodecEnc (= 4.3.0)
+    - AgoraRtcEngine_iOS/VirtualBackground (= 4.3.0)
+    - AgoraRtcEngine_iOS/VQA (= 4.3.0)
+  - AgoraRtcEngine_iOS/AIAEC (4.3.0)
+  - AgoraRtcEngine_iOS/AINS (4.3.0)
+  - AgoraRtcEngine_iOS/AudioBeauty (4.3.0)
+  - AgoraRtcEngine_iOS/ClearVision (4.3.0)
+  - AgoraRtcEngine_iOS/ContentInspect (4.3.0)
+  - AgoraRtcEngine_iOS/FaceCapture (4.3.0)
+  - AgoraRtcEngine_iOS/FaceDetection (4.3.0)
+  - AgoraRtcEngine_iOS/ReplayKit (4.3.0)
+  - AgoraRtcEngine_iOS/RtcBasic (4.3.0)
+  - AgoraRtcEngine_iOS/SpatialAudio (4.3.0)
+  - AgoraRtcEngine_iOS/VideoAv1CodecDec (4.3.0)
+  - AgoraRtcEngine_iOS/VideoCodecDec (4.3.0)
+  - AgoraRtcEngine_iOS/VideoCodecEnc (4.3.0)
+  - AgoraRtcEngine_iOS/VirtualBackground (4.3.0)
+  - AgoraRtcEngine_iOS/VQA (4.3.0)
+  - AgoraRtm_iOS (1.5.1)
   - boost (1.83.0)
   - CocoaAsyncSocket (7.6.5)
   - DoubleConversion (1.1.6)
@@ -944,6 +980,12 @@ PODS:
   - React-Mapbuffer (0.73.5):
     - glog
     - React-debug
+  - react-native-agora (4.3.0):
+    - AgoraIrisRTC_iOS (= 4.3.0-build.2)
+    - AgoraRtcEngine_iOS (= 4.3.0)
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
   - React-nativeconfig (0.73.5)
   - React-NativeModulesApple (0.73.5):
     - glog
@@ -1115,6 +1157,7 @@ PODS:
   - Yoga (1.14.0)
 
 DEPENDENCIES:
+  - agora-react-native-rtm (from `../node_modules/agora-react-native-rtm`)
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -1167,6 +1210,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector-modern`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
+  - react-native-agora (from `../node_modules/react-native-agora`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -1191,6 +1235,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AgoraIrisRTC_iOS
+    - AgoraRtcEngine_iOS
+    - AgoraRtm_iOS
     - CocoaAsyncSocket
     - Flipper
     - Flipper-Boost-iOSX
@@ -1206,6 +1253,8 @@ SPEC REPOS:
     - SocketRocket
 
 EXTERNAL SOURCES:
+  agora-react-native-rtm:
+    :path: "../node_modules/agora-react-native-rtm"
   boost:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
   DoubleConversion:
@@ -1261,6 +1310,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   React-Mapbuffer:
     :path: "../node_modules/react-native/ReactCommon"
+  react-native-agora:
+    :path: "../node_modules/react-native-agora"
   React-nativeconfig:
     :path: "../node_modules/react-native/ReactCommon"
   React-NativeModulesApple:
@@ -1305,6 +1356,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  agora-react-native-rtm: 20cd594088d33caa46c75f2d079efbac62848cec
+  AgoraIrisRTC_iOS: 2caf892fa827777fe43b6ac7d12e9b42579eb865
+  AgoraRtcEngine_iOS: 267c0980c1fb97e056d05b850f8629b05b6e467a
+  AgoraRtm_iOS: 595a9fa33a409831e6183396ea8f8bc563918403
   boost: d3f49c53809116a5d38da093a8aa78bf551aed09
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   DoubleConversion: fea03f2699887d960129cc54bba7e52542b6f953
@@ -1344,6 +1399,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 32db5e364bcae8fca8cdf8891830636275add0c5
   React-logger: 0331362115f0f5b392bd7ed14636d1a3ea612479
   React-Mapbuffer: 7c35cd53a22d0be04d3f26f7881c7fb7dd230216
+  react-native-agora: fb8fddfd9a8abfe03092dddc71b4a64468e9848d
   React-nativeconfig: 1166714a4f7ea57a0df5c2cb44fbc70f98d580f9
   React-NativeModulesApple: 726664e9829eb5eed8170241000e46ead269a05f
   React-perflogger: 0dd9f1725d55f8264b81efadd373fe1d9cca7dc2
